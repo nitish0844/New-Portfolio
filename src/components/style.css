@@ -1,0 +1,33 @@
+@media only screen and (max-width: 900px) {
+  .smallscreen {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .textcenter {
+    position: relative;
+    bottom: 100px;
+  }
+}
+@media only screen and (max-width: 783px) {
+  .textcenter {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+/* @media only screen and (min-width: 800px) {
+  .textcenter {
+    position: relative;
+    bottom: 100px;
+    left: 40%;
+  }
+} */
+
+/* @media only screen and (min-width: 700px) {
+  .textcenter {
+    display: none;
+  }
+} */
