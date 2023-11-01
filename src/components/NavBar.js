@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/n-low-resolution-logo-white-on-transparent-background.png";
+
+import logo from "../assets/img/BitHii.jpg";
+
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -37,7 +39,7 @@ export const NavBar = () => {
             <img
               src={logo}
               alt="Logo"
-              style={{ height: "100px", width: "100px" }}
+              style={{ height: "100px", width: "100px", borderRadius: "20%" }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
