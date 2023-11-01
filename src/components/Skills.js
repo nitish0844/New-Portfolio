@@ -42,17 +42,34 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={meter1} alt="skill" />
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Web-App Development</h5>
+                  <img src={meter2} alt="skill" />
+                  <h5>React JS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>App-Developer</h5>
+                  <img src={meter3} alt="skill" />
+                  <h5>React Native</h5>
                 </div>
+                <div className="item">
+                  <img src={meter2} alt="skill" />
+                  <h5>Node JS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="skill" />
+                  <h5>Firebase</h5>
+                </div>
+                {/* <div className="item">
+                  <img src={meter1} alt="skill" />
+                  <h5>Express JS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="skill" />
+                  <h5>Next JS</h5>
+                </div> */}
+
                 {/* <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5></h5>
@@ -62,7 +79,8 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+
+      <img className="background-image-left" src={colorSharp} alt="smage" />
     </section>
   );
 };
