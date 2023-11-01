@@ -4,8 +4,13 @@ import projImg1 from "../assets/img/projImg1.png";
 import projImg2 from "../assets/img/projImg2.png";
 import projImg3 from "../assets/img/projImg3.png";
 import projImg4 from "../assets/img/projImg4.png";
-import projImg5 from "../assets/img/projImg5.jpeg";
-import projImg6 from "../assets/img/projImg6.jpeg";
+
+import projImg5 from "../assets/img/projImg5.png";
+import projImg6 from "../assets/img/projImg6.png";
+
+// import projImg5 from "../assets/img/projImg5.jpeg";
+// import projImg6 from "../assets/img/projImg6.jpeg";
+
 import projImg9 from "../assets/img/projImg9.jpeg";
 import projImg7 from "../assets/img/projImg7.png";
 import projImg8 from "../assets/img/projImg8.png";
@@ -47,20 +52,26 @@ export const Projects = () => {
     },
 
     {
-      title: "Wallpaper App",
-      description: "Wallpaper App Using React Native",
+      title: "Shelter-Connect App",
+      description:
+        "Used to connect with the nearest community like Legal Aids, Orphange and many more",
+
       imgUrl: projImg5,
     },
 
     {
-      title: "Guess The Number Game",
-      description: "Number Game App using React Native",
+      title: "Planet Statistics App",
+      description:
+        "Fetching Data from Nasa Api and Displaying in Application using React Native",
+
       imgUrl: projImg9,
     },
 
     {
-      title: "Foody App",
-      description: "Restaurant info App Using React Native",
+      title: "Votex Gym App",
+      description:
+        "Used for gym management like attendance, attendance report and payment using React Nativ and Firebase",
+
       imgUrl: projImg6,
     },
   ];
